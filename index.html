@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://use.typekit.net/sqb8pit.css">
+  <link rel="stylesheet" href="https://use.typekit.net/skn8ash.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+  <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+  <title></title>
+</head>
+
+<body>
+  <div class="cursor"></div>
+  <div class="container" data-scroll-container>
+    <section data-textcolor="#bcb8ad" data-bgcolor="#032f35">
+      <div>
+        <h1><span data-scroll data-scroll-direction="horizontal" data-scroll-speed="-1">Transcom</span> <span data-scroll data-scroll-direction="horizontal" data-scroll-speed="-2">employment</span> <span data-scroll data-scroll-direction="horizontal"
+            data-scroll-speed="-3">world</span></h1>
+        <p class="holdme" id="hold_" href="#anchor_stop_scroll" data-scroll data-scroll-speed="2" data-scroll-delay="0.2">scroll down to begin</p>
+      </div>
+    </section>
+    <section class="horizontal-scroll" data-textcolor="#bcb8ad" data-bgcolor="#815946" id="candidate_details">
+      <form id="candidate_form" class="form" action="index.html" method="post">
+        <div class="pin-wrap form_inside">
+          <span class="form_aside full_name" >Hi!<br>My name is <input type="text" name="full_name" placeholder="enter full name" value="" id="user_name" class="iscandidate"></span>
+          <span class="form_aside job_choose">and i'm here to test for the
+            <input type="text" name="job_title" value="" placeholder="enter job title" list="job_title_list">
+            <datalist id="job_title_list">
+              <option>Data Analyst</option>
+              <option>Project Manager</option>
+              <option>Vendor Manager</option>
+            </datalist>
+            position.
+          </span>
+        </div>
+        <div class="pin-wrap">
+          <span  class="form_aside hola" data-scroll data-scroll-delay="0.04" data-scroll-speed="6">
+            <span data-scroll data-scroll-delay="0.1">Hola,<br></span>
+            <span data-scroll data-scroll-delay="0.2">we are <mark>Transcom Global.</mark><br><br><br></span>
+            <span data-scroll data-scroll-delay="0.3">we would loooooooooove to work with you,<br></span>
+            <span data-scroll data-scroll-delay="0.4">just pass these tests.<br></span>
+            <span data-scroll data-scroll-delay="0.5">you got this!</span>
+            <img class="eyez" src="images\peace.gif" alt="">
+          </span>
+        </div>
+      </form>
+
+      <img class="hi_gif" id="hi_gif" src="images\Waving Hand.gif" alt="">
+    </section>
+    <section data-textcolor="#032f35" data-bgcolor="#bcb8ad">
+      <div>
+        <h2 data-scroll data-scroll-speed="1"><span></span></h2>
+      </div>
+    </section>
+
+    <section data-bgcolor="#e3857a" data-textcolor="#f1dba7"><img src="https://images.pexels.com/photos/4791474/pexels-photo-4791474.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+      <h2 data-scroll data-scroll-speed="1"></h2>
+    </section>
+    <section class="horizontal-scroll" data-textcolor="#bcb8ad" data-bgcolor="#815946">
+      <div class="pin-wrap">
+        <h2></h2>
+        <img src="https://images.pexels.com/photos/5207262/pexels-photo-5207262.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=900" alt="">
+        <img src="https://images.pexels.com/photos/3371358/pexels-photo-3371358.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=900" alt="">
+        <img src="https://images.pexels.com/photos/3618545/pexels-photo-3618545.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=900" alt="">
+      </div>
+    </section>
+    <section data-textcolor="#032f35" data-bgcolor="#bcb8ad">
+      <div>
+        <h2 data-scroll data-scroll-speed="1"><span></span></h2>
+      </div>
+
+    </section>
+
+    <section data-bgcolor="#e3857a" data-textcolor="#f1dba7"><img src="https://images.pexels.com/photos/4791474/pexels-photo-4791474.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+      <h2 data-scroll data-scroll-speed="1"></h2>
+    </section>
+  </div>
+
+</body>
+<script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" charset="utf-8"></script>
+<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/css-scroll-snap-polyfill@0.1.2/dist/css-scroll-snap-polyfill.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/kursor@0.1.6/dist/kursor.min.js"></script>
+<script src="https://unpkg.com/kursor"></script>
+<script src="scroll.js" type="text/javascript"></script>
+<script src="script.js" type="text/javascript"></script>
+<script src="locomotive-scroll.min.js"></script>
+<script>
+    (function () {
+        var scroll = new LocomotiveScroll();
+    })();
+</script>
+
+</html>
