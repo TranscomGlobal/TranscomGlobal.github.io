@@ -95,7 +95,10 @@ const candidateName = document.getElementById("user_name").value
 document.querySelector('#user_name').addEventListener('keypress', function(e) {
   if (e.key === 'Enter') {
     if (candidates.indexOf(document.getElementById("user_name").value) >= 0) {
-      document.getElementById("download_files").visibility = "visible"
+      document.getElementById("downloadme").style.visibility = "visible"
+    }
+    else {
+      document.getElementById("downloadme").style.visibility = "hidden"
     }
   }
 });
